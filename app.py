@@ -5,7 +5,7 @@ import re
 import json
 
 # Setup Gemini API
-genai.configure(api_key="AIzaSyBK_39YcJz4iEtCKsvKTczBKWBLpUTM6qY")
+genai.configure(api_key="Your_API_Key")
 model = genai.GenerativeModel("gemini-flash-latest")
 
 SYSTEM_PROMPT = """
